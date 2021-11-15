@@ -1,6 +1,7 @@
 import React from "react";
-const Brand = () => {
+
+const Footer = () => {
   return <div></div>;
 };
 
-export default Brand;
+export default Footer;
