@@ -1,11 +1,11 @@
 import React from "react";
 
-const App = () => {
+const Nav = () => {
   return (
     <div>
-      <h1>GPT-3</h1>
+      <h1>Nav</h1>
     </div>
   );
 };
 
-export default App;
+export default Nav;

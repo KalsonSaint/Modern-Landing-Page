@@ -1,11 +1,11 @@
 import React from "react";
 
-const App = () => {
+const CTA = () => {
   return (
     <div>
-      <h1>GPT-3</h1>
+      <h1>CTA</h1>
     </div>
   );
 };
 
-export default App;
+export default CTA;
