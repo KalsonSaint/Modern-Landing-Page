@@ -8,6 +8,7 @@ import {
   Possibility,
   WhatGPT,
 } from "./assets/elements";
+import "./assets/css/style.css";
 
 const App = () => {
   return (
