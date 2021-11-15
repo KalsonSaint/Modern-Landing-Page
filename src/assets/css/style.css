@@ -13,6 +13,7 @@
   --color-text: #81afdd;
   --color-subtext: #ff8a71;
   --color-white: #fff;
+  --color-orange: #ff4820;
 }
 
 /* Main Styles */
@@ -21,6 +22,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: var(--font-family);
   scroll-behavior: smooth;
 }
 
@@ -149,7 +151,7 @@ a {
   display: flex;
   flex-direction: row;
 }
-.gpt__navbar-signin {
+.gpt__navbar-sign {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -165,4 +167,16 @@ a {
   text-transform: capitalize;
   margin: 0 1rem;
   cursor: pointer;
+}
+.gpt__navbar-sign button,
+.gpt__navbar-menu_container button {
+  padding: 0.5rem 1rem;
+  color: var(--color-white);
+  background: var(--color-orange);
+  outline: none;
+  border: 0;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
 }
