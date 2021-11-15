@@ -127,7 +127,7 @@ a {
   }
 }
 
-/* Navbar Styling */
+/* Navbar Styles */
 .gpt__navbar {
   display: flex;
   justify-content: space-between;
@@ -224,7 +224,6 @@ a {
 @media screen and (max-width: 700px) {
   .gpt__navbar {
     padding: 2rem 4rem;
-    border: 2px solid red;
   }
 }
 
@@ -234,7 +233,6 @@ a {
   }
   .gpt__navbar-menu {
     display: flex;
-    border: 1px solid red;
   }
   .gpt__navbar-sign {
     display: none;
@@ -245,4 +243,20 @@ a {
   .gpt__navbar-menu_container-links-sign {
     display: block;
   }
+}
+
+/* Header Styles */
+.gpt__header {
+  display: flex;
+}
+.gpt__header-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-right: 5rem;
+}
+.gpt__header-content h1 {
+  font-weight: 800;
 }
