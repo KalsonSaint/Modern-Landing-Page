@@ -4,7 +4,6 @@ import logo from "../../assets/images/logo.svg";
 
 const Menu = () => (
   <>
-    {" "}
     <p>
       <a href="#home">Home</a>
     </p>
@@ -45,19 +44,23 @@ const Nav = () => {
           <RiCloseLine
             color="#fff"
             size={27}
-            onClick={() => setToggleMenu("false")}
+            onClick={() => setToggleMenu(false)}
           />
         ) : (
           <RiMenu3Line
             color="#fff"
             size={27}
-            onClick={() => setToggleMenu("true")}
+            onClick={() => setToggleMenu(true)}
           />
         )}
         {toggleMenu && (
-          <div className="gpt__navbar-menu_container">
+          <div className="gpt__navbar-menu_container scale-up-center">
             <div className="gpt__navbar-menu_container-links">
               <Menu />
+              <div className="gpt__navbar-menu_container-links-sign">
+                <p>Sign in</p>
+                <button type="button">Sign up</button>
+              </div>
             </div>
           </div>
         )}
